@@ -9,7 +9,7 @@ const LongPolling = () => {
     }, []);
     const subscribe = async () => {
         try {
-            const {data} = await axios.get('http://localhost:5000/get-messages?с=777')
+            const {data} = await axios.get('http://localhost:5000/get-messages')
             setMessages(prev => [data, ...prev])
             await subscribe()
         }
