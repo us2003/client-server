@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.messages {
+  padding: 2px;
+  margin: 5px;
+}
+
+.message {
+  height: 20px;
+  width: 250px;
+  background: rgb(243, 236, 236);
+  margin: 2px 0;
+  border: 1px solid #ccc;
+}
